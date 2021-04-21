@@ -224,6 +224,13 @@
                                         font-weight: bold;
                                     }
                                     
+                                    h2 {
+                                        font-family: 'Open Sans', sans-serif;
+                                        font-size: 25px;
+                                        line-height: 150%;
+                                        font-weight: bold;
+                                    }
+                                    
                                     .titlex p {
                                         font-size: 7px;
                                         font-family: 'Open Sans', sans-serif;
@@ -241,12 +248,23 @@
                                         border: 0px;
                                     }
                                     
-                                    .about .container {
-                                        background-color: turquoise;
-                                        position: relative;
-                                        width: 100%;
+                                    .about {
+                                        background-color: #ffe6ac;
+                                        /* position: relative;
+                                        width: 100%; */
                                         height: auto;
-                                        margin-left: auto;
-                                        margin-right: auto;
-                                        padding-bottom: 0px;
+                                        /* margin-left: auto;
+                                        margin-right: auto; */
+                                        padding: 10px;
+                                    }
+                                    
+                                    .tens {
+                                        width: 100%;
+                                    }
+                                    
+                                    .about p {
+                                        line-height: 120%;
+                                        margin-bottom: 10px;
+                                        font-family: 'Open Sans', sans-serif;
+                                        font-size: 10px;
                                     }
